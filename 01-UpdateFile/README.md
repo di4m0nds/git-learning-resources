@@ -31,6 +31,10 @@ Just update the text in the file, like `"This is a content"`
 And now run `git status` again, are you saw some changes?
 That 'cause we update the file, so we need to track it again, commit it and push it.
 
+To track the file:
+```bash
+git add <name-file>
+```
 To commit it:
 ```bash
 git commit -m "Updated File"
