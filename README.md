@@ -8,10 +8,17 @@
 - `git status`
 - `git log <file>`
 - `git show <file>`
+- `git diff <commit number tag #1> <commit number tag #2>`
 - `git status`
 - `git add .` or `git add <relative-path-file>`
 - `git commit -m "Some description"`
 - `git push`
 - `git pull`
 - `git rm <file>`
-- `git rm --cached <file>`
+- `git rm --cached <file>` remove from staging area
+- `git rm --force <file>` remove HDD
+- `git reset --soft` back to staging
+- `git reset --mixed` back to working directory
+- `git reset --hard` 
+- `git `
+- `git `
