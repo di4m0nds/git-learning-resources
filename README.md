@@ -1,0 +1,17 @@
+# Commands list
+- `git config`
+- `git config --list`
+- `git config --list --show-origin`
+- `git config --global user.name "Some Name"`
+- `git config --global user.email "example@test.com.ar"`
+- `git init`
+- `git status`
+- `git log <file>`
+- `git show <file>`
+- `git status`
+- `git add .` or `git add <relative-path-file>`
+- `git commit -m "Some description"`
+- `git push`
+- `git pull`
+- `git rm <file>`
+- `git rm --cached <file>`
