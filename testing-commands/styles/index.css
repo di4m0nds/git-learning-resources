@@ -1,0 +1,29 @@
+.body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  color: brown;
+  text-align: center;
+}
+
+.section > a {
+  padding: 10px 20px;
+  font-size: large;
+  color: white;
+  background: brown;
+  border: none;
+  border-radius: 5%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: .5s;
+  text-decoration-line: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.section > a:hover {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  background: rgb(186, 48, 48);
+}
