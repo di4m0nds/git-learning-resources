@@ -19,7 +19,8 @@
 - `git rm --force <file>` remove HDD
 - `git reset --soft` back to staging
 - `git reset --mixed` back to working directory
-- `git reset --hard` 
+- `git reset --hard` delete everything
+- `git reset HEAD` remove changes from staging 
 - `git checkout <commit-id> <file>` OPTIONAL FILE
 - `git checkout master` back to lastest commit/changes
 - `git `
