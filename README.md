@@ -20,5 +20,6 @@
 - `git reset --soft` back to staging
 - `git reset --mixed` back to working directory
 - `git reset --hard` 
-- `git `
+- `git checkout <commit-id> <file>` OPTIONAL FILE
+- `git checkout master` back to lastest commit/changes
 - `git `
