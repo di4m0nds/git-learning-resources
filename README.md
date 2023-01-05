@@ -8,12 +8,15 @@
 - `git status`
 - `git log <file>`
 - `git show <file>`
-- `git diff <commit number tag #1> <commit number tag #2>`
+- `git diff <commit number tag #1> <commit number tag #2>` compare differences
 - `git status`
 - `git add .` or `git add <relative-path-file>`
 - `git commit -m "Some description"`
-- `git push`
-- `git pull`
+- `git clone <url>`
+- `git fetch`
+- `git merge`
+- `git pull` # Simplifly "git fetch" & "git merge"
+- `git push` # Push your local commits
 - `git rm <file>`
 - `git rm --cached <file>` remove from staging area
 - `git rm --force <file>` remove HDD
@@ -23,4 +26,7 @@
 - `git reset HEAD` remove changes from staging 
 - `git checkout <commit-id> <file>` OPTIONAL FILE
 - `git checkout master` back to lastest commit/changes
+- `git `
+- `git `
+- `git `
 - `git `
