@@ -3,6 +3,7 @@
   padding: 20px 0;
   display: flex;
   width: 100%;
+  background: rgb(34, 184, 243);
 }
 
 .header > div {
@@ -21,8 +22,17 @@
 
 .header > .links > li {
   flex: 1;
+  list-style: none;
+  list-style-type: none;
 }
+
 .header > .links > li > a {
   text-transform: uppercase;
   letter-spacing: 2px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header > .links > li > a:hover {
+  font-weight: 700;
 }
