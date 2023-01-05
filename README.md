@@ -39,4 +39,4 @@
 - `git remote add origin <url>` add remote
 - `git remote -v` list remote origin
 - `git push origin master` send to this origin the branch master
-- `git `
+- `git pull origin master --allow-unrealated-histories` merge remote history branch to local branch
