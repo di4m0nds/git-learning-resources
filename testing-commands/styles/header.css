@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  margin: 0;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  background: rgba(1, 154, 255, 0.699);
+  display: flex;
+}
+
+.header > div {
+  flex: 1;
+}
+
+.header > .title {
+  text-align: center;
+}
+
+.header > .links {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.header > .links > li {
+  flex: 1;
+  text-align: center;
+}
