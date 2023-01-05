@@ -29,5 +29,5 @@
 - `git checkout <branch-name>` back to lastest commit/changes
 - `git branch <branch-name` create a new branch
 - `git branch -l` list branches
-- `git `
+- `git merge <branch-name>` make a commit with a merge
 - `git `
