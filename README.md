@@ -7,6 +7,12 @@
 - `git init`
 - `git status`
 - `git log <file>`
+- `git log --all --decorate --oneline --graph`
+- `git log --pretty=format:"%cn hizo un commit %h el dia %cd`
+- `git log shortlog`
+- `git log > log.txt` save logs ina file (txt in this case)
+- `git log --after=“2018-1-2” --before=“today”` by date
+- `git log --author=“Name Author”` by author
 - `git show <file>`
 - `git diff <commit number tag #1> <commit number tag #2>` compare differences
 - `git status`
@@ -30,4 +36,7 @@
 - `git branch <branch-name` create a new branch
 - `git branch -l` list branches
 - `git merge <branch-name>` make a commit with a merge
+- `git remote add origin <url>` add remote
+- `git remote -v` list remote origin
+- `git push origin master` send to this origin the branch master
 - `git `
